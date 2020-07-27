@@ -32,7 +32,6 @@ body{
     align-items: center;
     padding: 0 auto;
     margin: 0 auto;
-    /* box-sizing: content-box; */
 }
 .mediaicon a{
     font-size: small;
@@ -44,22 +43,3 @@ body{
     color: #343a40;
     background-color: lightgray;
 }
-/* .container{
-    margin: 0;
-    width: 100%;
-} */
-/* .header{
-    color: white;
-    background-color: #343a40
-}
-
-.about{
-    background: url("./pagepic.jpg") no-repeat top right;
-    height:300px; 
-    width: 100%; 
-    text-align: left;
-}
-.about p{
-    font-size: x-large;
-    width: 45%;
-} */

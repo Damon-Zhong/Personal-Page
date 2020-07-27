@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <title>Yuqi Zhong</title>
+</head>
+
+<body>
+
+    <!-- Navigation <span class="sr-only">(current)</span>-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./index.html">YUQI ZHONG</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <!-- Home -->
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <!-- Portfolio -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./portfolio.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Portfolio
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://damon-zhong.github.io/Weather-Dashboard/"
+                            target="_blank">Weather Dashboard</a>
+                        <a class="dropdown-item" href="https://damon-zhong.github.io/Day-Planner/" target="_blank">Day
+                            Planner</a>
+                        <a class="dropdown-item" href="https://damon-zhong.github.io/Console-Finder/"
+                            target="_blank">Console Finder</a>
+                        <a class="dropdown-item" href="./portfolio.html">More projects</a>
+                    </div>
+                </li>
+                <!-- Contact Me -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+
+    <!-- Featured Projects -->
+    <h2 class="mt-3 mb-3 title">HTML/CSS/JAVASCRIPT PROJECTS</h2>
+    <div class="container">
+        <div class="mt-3 row">
+            <!-- Password Generator -->
+            <div class="mt-2 col-sm">
+                <div class="project card">
+                    <div class="cardImg" style="background-image: url(./assets/projectImage/PasswordGenerator.png);">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Password Generator</h5>
+                        <p class="card-text">This application generates a random password based on user-selected
+                            criteria including password length, desired charater set.</p>
+                        <a href="https://github.com/Damon-Zhong/Password-Generator.git" target="_blank" class="col">
+                            <i class="fab fa-github"> Github</i>
+                        </a>
+                        <a href="https://damon-zhong.github.io/Password-Generator/" target="_blank" class="col">
+                            <i class="fas fa-unlock-alt"> Password Generator</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Weather Dashboard -->
+            <div class="mt-2 col-sm">
+                <div class="project card">
+                    <div class="cardImg" style="background-image: url(./assets/projectImage/WeatherDashboard.png);">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Weather Dashboard</h5>
+                        <p class="card-text">A Weather Dashboard applicationthat provides the user with city weather
+                            information and 5-days forecast. This application uses OpenWeather API.</p>
+                        <a href="https://github.com/Damon-Zhong/Weather-Dashboard.git" target="_blank" class="col">
+                            <i class="fab fa-github"> Github</i>
+                        </a>
+                        <a href="https://damon-zhong.github.io/Weather-Dashboard/" target="_blank" class="col">
+                            <i class="fas fa-cloud-sun"> Weather Dashboard</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-3 row">
+            <!-- Day Planner -->
+            <div class="mt-2 col-sm">
+                <div class="project card">
+                    <div class="cardImg" style="background-image: url(./assets/projectImage/DayPlanner.png);"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Day Planner</h5>
+                        <p class="card-text">Day Planner allows users to draft daily agenda. It highlights the
+                            future
+                            to-do events and displays current time.</p>
+                        <a href="https://github.com/Damon-Zhong/Day-Planner.git" target="_blank" class="col-3">
+                            <i class="fab fa-github"> Github</i>
+                        </a>
+                        <a href="https://damon-zhong.github.io/Day-Planner/" target="_blank" class="col-7">
+                            <i class="fas fa-calendar-week"> Day Planner</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Console Finder -->
+            <div class="mt-2 col-sm">
+                <div class="project card">
+                    <div class="cardImg" style="background-image: url(./assets/projectImage/ConsoleFinder.png);"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Console Finder</h5>
+                        <p class="card-text">Find your gaming console and compare the prices on Amazon and
+                            Google.Let's
+                            play! </p>
+                        <a href="https://github.com/Damon-Zhong/Console-Finder.git" target="_blank" class="col-3">
+                            <i class="fab fa-github"> Github</i>
+                        </a>
+                        <a href="https://damon-zhong.github.io/Console-Finder/" target="_blank" class="col-7">
+                            <i class="fas fa-gamepad"> Console Finder</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="mt-3 mb-3 title">Node.js PROJECTS</h2>
+    <div class="container">
+        <div class="row">
+            <!-- Employee Summary -->
+            <div class="mt-2 col-sm">
+                <div class="project card">
+                    <div class="cardImg" style="background-image: url(./assets/projectImage/EmployeeTemplate.png);">
+                    </div>
+                    <div class="cardImg" style="background-image: url(./assets/projectImage/TeamOutput.png);"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Template Engine: Employee Summary Generator</h5>
+                        <p class="card-text">This application generates a random password based on user-selected
+                            criteria including password length, desired charater set.</p>
+                        <a href="https://github.com/Damon-Zhong/Template-Engine-Employee-Summary.git" target="_blank"
+                            class="col">
+                            <i class="fab fa-github"> Github</i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Note Taker -->
+            <div class="mt-2 col-sm">
+                <div class="project card">
+                    <div class="cardImg" style="background-image: url(./assets/projectImage/NoteTaker.png);"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Note Taker</h5>
+                        <p class="card-text">This is an application that allows users to save and delete their notes.
+                        </p>
+                        <a href="https://github.com/Damon-Zhong/NoteTaker.git" target="_blank" class="col">
+                            <i class="fab fa-github"> Github</i>
+                        </a>
+                        <a href="https://note-taker-1021.herokuapp.com/" target="_blank" class="col">
+                            <i class="fas fa-notes-medical"> Note Taker</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Me -->
+    <div id="contact" class="contact mt-3 mb-3">
+        <h3 class="footer-head title">CONTACT ME</h3>
+        <div class="icons">
+            <div class="col mediaicon">
+                <a href="mailto:damon.yq.zhong@gmail.com" target="_blank">
+                    <i class="far fa-envelope"></i> Email Me</a>
+            </div>
+            <div class="col mediaicon">
+                <a href="https://www.linkedin.com/in/damonzhong/">
+                    <i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+            <div class="col mediaicon">
+                <a href="https://github.com/Damon-Zhong/" target="_blank">
+                    <i class="fab fa-github"> </i> Github</a>
+            </div>
+            <div class="col mediaicon">
+                <a href="https://www.linkedin.com/in/damonzhong/" download>
+                    <i class="fas fa-file"></i> Download CV</a>
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer class="mt-5 pl-5 title">
+        © 2020 Yuqi Zhong
+    </footer>
+</body>
+
+</html>

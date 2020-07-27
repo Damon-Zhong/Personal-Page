@@ -1,0 +1,65 @@
+body{
+    color: white;
+    background-color:#343a40;
+}
+.wrapper{
+    width: 100%;
+    padding: 5%;
+    color: white;
+    background-color:#343a40;
+}
+.profile{
+    background: url(./projectImage/pagepic.jpg) no-repeat center center;
+    height:300px; 
+    width: 100%; 
+}
+.project{
+    min-width: 200px;
+    min-height: 360px;
+    color: #000;
+}
+.cardImg{
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: top;
+    height: 100px;
+    width: 100%;
+}
+.contact{
+    text-align: center;
+}
+.icons{
+    align-items: center;
+    padding: 0 auto;
+    margin: 0 auto;
+    /* box-sizing: content-box; */
+}
+.mediaicon a{
+    font-size: small;
+    text-decoration: none;
+}
+.title{
+    text-align: center;
+    width: 100%;
+    color: #343a40;
+    background-color: lightgray;
+}
+/* .container{
+    margin: 0;
+    width: 100%;
+} */
+/* .header{
+    color: white;
+    background-color: #343a40
+}
+
+.about{
+    background: url("./pagepic.jpg") no-repeat top right;
+    height:300px; 
+    width: 100%; 
+    text-align: left;
+}
+.about p{
+    font-size: x-large;
+    width: 45%;
+} */
